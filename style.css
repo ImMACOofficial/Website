@@ -101,12 +101,12 @@ body{
   opacity: 50%;
   transition:.5s ease-in-out;
   display: flex;
-  left: -250px;
+  right: -250px;
   z-index: 950;
 }
 
 #sidebar-button:checked ~ .sidebar{
-   left: 0px;
+   right: 0px;
 }
 .sidebar-label{
   width: 100vw;
