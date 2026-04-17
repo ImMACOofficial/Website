@@ -4,6 +4,8 @@
   --bg-color: white;
   --text-color: white;
 }
+
+/*-------HOME-START---------*/
 @font-face {
     font-family: 'Boldonse'; /* The name you will use later */
     src: url('/Fonts/Boldonse-Regular.ttf') format('truetype');
@@ -122,3 +124,5 @@ body{
 .sidebar ul li{
   list-style: none ;
 }
+
+/*--------HOME-END----------*/
