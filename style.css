@@ -5,8 +5,6 @@
   --text-color: white;
 }
 
-/*-------HOME-START---------*/
-
 /*PRIMARY START*/
 @font-face {
     font-family: 'Boldonse'; /* The name you will use later */
@@ -38,7 +36,7 @@ body{
   border-radius: 100px;
   animation: nav linear;
   animation-timeline: scroll();
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
   
@@ -161,4 +159,15 @@ nav li img{
 }
 
 /*PRIMARY END*/
+
+/*-------HOME-START---------*/
+
+.header{
+  background-image:url(header-bg.png);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  top: 0;
+}
+
 /*--------HOME-END----------*/
